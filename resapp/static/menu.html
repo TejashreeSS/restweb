@@ -1,0 +1,146 @@
+<!-- menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Bliss Bites Café</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 10px;
+      background-color: #ffb3c6;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d6336c;
+      padding-top: 20px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .menu-item {
+      background: white;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .menu-item p {
+      margin: 10px 0 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    footer {
+      background: #d6336c;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="admin.html">Administration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Our Sweet Menu</h1>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="chocwaff.jpg" alt="Chocolate Waffle">
+        <p>Chocolate Waffle - ₹140</p>
+      </div>
+      <div class="menu-item">
+        <img src="berrwaff.jpg" alt="Berry Bliss Waffle">
+        <p>Berry Bliss Waffle - ₹160</p>
+      </div>
+      <div class="menu-item">
+        <img src="clascross.jpg" alt="Classic Croissant">
+        <p>Classic Croissant - ₹120</p>
+      </div>
+      <div class="menu-item">
+        <img src="vancup.jpg" alt="Vanilla Cupcake">
+        <p>Vanilla Cupcake - ₹160</p>
+      </div>
+      <div class="menu-item">
+        <img src="strawcheese.jpg" alt="Strawberry Cheesecake">
+        <p>Strawberry Cheesecake - ₹180</p>
+      </div>
+      <div class="menu-item">
+        <img src="revelpas.jpeg" alt="Red Velvet Pastry">
+        <p>Red Velvet Pastry - ₹150</p>
+      </div>
+      <div class="menu-item">
+        <img src="mintchocos.jpeg" alt="Mint Choco Ice Cream">
+        <p>Mint Choco Ice Cream - ₹90</p>
+      </div>
+      <div class="menu-item">
+        <img src="magsor.jpeg" alt="Mango Sorbet">
+        <p>Mango Sorbet - ₹85</p>
+      </div>
+      <div class="menu-item">
+        <img src="lava.jpg" alt="Chocolate Lava Cake">
+        <p>Chocolate Lava Cake - ₹170</p>
+      </div>
+      <div class="menu-item">
+        <img src="carashake.jpg" alt="Caramel Shake">
+        <p>Caramel Shake - ₹120</p>
+      </div>
+      <div class="menu-item">
+        <img src="hazelnut.jpg" alt="Hazelnut Frappe">
+        <p>Hazelnut Frappe - ₹130</p>
+      </div>
+      <div class="menu-item">
+        <img src="berrysmoo.jpeg" alt="Berry Smoothie">
+        <p>Berry Smoothie - ₹170</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Created by Tejashree SS(212224100058)</p>
+  </footer>
+</body>
+</html>

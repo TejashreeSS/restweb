@@ -1,0 +1,99 @@
+/* style.css */
+
+/* Reset and global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #ffe6f0; /* Light pink background, same as the other pages */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header img.banner {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    background-color: #ffb3c6; /* Matching light pink theme */
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #d6336c; /* Darker pink for titles */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contact info section */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #d6336c; /* Dark pink footer */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 2px solid #4CAF50;
+}
